@@ -5,7 +5,7 @@
 
 Tipe data merupakan kategori yang digunakan untuk mengklasifikasikan data berdasarkan sifat dan karakteristiknya. Tiga kategori utama tipe data dalam pemrograman dalam bahasa C++ serta penjelasannya;
 
-1. Tipe Data Primitif
+**1. Tipe Data Primitif**
 
 Tipe data primitif merupukan tipe data dasar yang disediakan oleh bahasa pemrograman termasuk C++. Tipe data ini tidak bisa diubah atau dipecah menjadi bagian yang lebih kecil. Berikut adalah contoh tipe data primitif;
     - Bilangan bulat: byte, short, int, long
@@ -13,11 +13,11 @@ Tipe data primitif merupukan tipe data dasar yang disediakan oleh bahasa pemrogr
     - Karakter: char
     - Nilai boolean: boolean (true/false)
 
-2. Tipe Data Abstrak
+**2. Tipe Data Abstrak**
 
     Tipe data abstrak merupakan tipe data yang dibentuk oleh programmer sendiri. Data abstrak memungkinkan program mengabaikan detail bagaimana tipe data direpresentasikan.
 
-3. Tipe Data Koleksi
+**3. Tipe Data Koleksi**
 
 Tipe data koleksi atau Collection Data Type merupakan tipe data yang digunkan untuk menyimpan sebuah kelompok data yang mempunyai nilai atau objek secara besamaan. Collection data memungkinkan programmer untuk menyimpan, mengelola, dan mengakses dara besar dengan cara terstruktur. Beberapa tipe data koleksi, yaitu;
     - Array, sebuah data statis yang dapat menyimpan sekelompok elemen dengan tipe data yang sama, elemen tersebut dapat diakses dengan indeks.
