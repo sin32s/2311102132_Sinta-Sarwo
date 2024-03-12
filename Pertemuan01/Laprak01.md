@@ -8,7 +8,7 @@ Tipe data merupakan kategori yang digunakan untuk mengklasifikasikan data berdas
 **1. Tipe Data Primitif**
 
 Tipe data primitif merupukan tipe data dasar yang disediakan oleh bahasa pemrograman termasuk C++. Tipe data ini tidak bisa diubah atau dipecah menjadi bagian yang lebih kecil. Berikut adalah contoh tipe data primitif;
--  Bilangan bulat: byte, short, int, long
+- Bilangan bulat: byte, short, int, long
 - Bilangan desimal: float, double
 - Karakter: char
 - Nilai boolean: boolean (true/false)
@@ -71,7 +71,7 @@ int main(){
     return 0;
 }
 ```
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
+Kode di atas digunakan untuk menghitung operational sederhana seperti penambahan (+), pengurangan (-), perkalian (*), dan penjumlahan (/). Operasi ini akan dijalankan jika user menginput salah satu dari tanda operasional yang di inginkan. User butuh menginput dua angka yang ingin dihitung saat penginputan cin. Dalam kode di atas terdapat data primitif yang digunakana yaitu float dan char. Tipe dara char digunakan saat pemilihan switch case, sedangkan float digunakan untuk kedua nomor yang akan di input oleh user. Jika user tidak memasukan operator char maka program akan memunculkan "Error! operator is not correct".
 
 ### 2. Tipe data abstarak
 
@@ -111,7 +111,7 @@ int main(){
     return 0; 
 } 
 ```
-Kode diata...
+Kode diatas menggunakan struct dan mencetaknya. Struct merupakan salah satu tipe data abstrak. Pada kode struct Mahasiswa di atas mempunyai 3 nilai, yaitu char name dengan ukuran 50, char address dengan ukuran yang sama, dan juga int age. Dalam int main kode sturct mhs1 dan mhs2 dengan isi nilai struct tersebut. Struct Mahasiswa mhs1 dengan nama Dian, alamat Mataram, dan umur 23. Sedangkan mhs2 dengan nama Bambang, alamat Surabaya, dan umur 23. Struct dicetak menggunakan printf satu persatu dengan nilai dalam struct mhs1 dan mhs2.
 
 ### 3. Tipe data koleksi
 ```C++
@@ -138,11 +138,11 @@ int main() {
     return 0; 
 }
 ```
-Kode di atas....
+Kode di atas menggunakan array untuk menyimpan tipe data integer dengan ukuran 5. Dalam kode di atas array di deklasrasi dan di inisialisasi dengan indeksnya. Terdapat array yang bernilai 23, 50, 34, 78, 90, dengan indeks yang mulai dari 0 sampai 4. Nilai array tersebut dicetak satu-satu menggunakan tab dan operasi cout berutan dari indeks 0 sampai 4.
 
 ## Unguided 
 
-### 1. [Soal]
+### 1. Buatlah program menggunakan tipe data primitif minimal dua fungsi dan bebas. Menampilkan program, jelaskan program tersebut dan ambil kesimpulan dari materi tipe data primitif! 
 
 ```C++
 
@@ -232,11 +232,14 @@ int main(){
 }
 ```
 #### Output:
-![240302_00h00m06s_screenshot](https://github.com/suxeno/Struktur-Data-Assignment/assets/111122086/6d1727a8-fb77-4ecf-81ff-5de9386686b7)
+![Screenshot Output Unguided 2](Output-Unguided-1_Sinta.png)
 
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
+Kode di atas digunakan untuk menghitung luas dan keliling sebuah lingkaran dan segitiga. Kode di atas menggunakan tipe data primitif char, double float dan juga menggunakan library cmath untuk memudahkan penghitungan operasi luas dan keliling lingkaran. Dalam program di atas mempunyai 4  fungsi  dan 1 procedur untuk mempermudah dalam int main program. 4 fungsi menampung 4 operasi dari perhitungan-perhitungan luas dan keliling lingkaran dan segitiga. Pada kode di atas juga menggunakan do-while untuk looping program tersebut, jika user memilih 0 maka program akan berhenti.
 
-### 2.
+Kesimpulan data primitif:
+Data primitif merupakan tipe data yang sudah ditentukan oleh sistem terdapat di berbagai bahasa pemrograman, dan bersifat penting dalam menyimpan nilai-nilai sederhana.
+
+### 2. Jelaskan fungsi dari class dan struct secara detail dan berikan contoh programnya.
 
 ```C++
 
@@ -284,11 +287,17 @@ int main () {
 ```
 
 #### Output:
-![240302_00h00m06s_screenshot](https://github.com/suxeno/Struktur-Data-Assignment/assets/111122086/6d1727a8-fb77-4ecf-81ff-5de9386686b7)
+![Screenshot Output Unguided 2](Output-Unguided-2_Sinta.png)
 
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
+Kode di atas digunakan untuk mencetak teks kedua struct dan class. Kode di atas terdapat struct Room_2132 data string RoomType_2132 untuk tipe kamar dan int RoomNumber_2132 untuk nomor kamar, dan class yang terdapat data string title, genre, dan int YearRelease_2132 dalam akses publik. Pada int main Struct Room_2132 tipekamar diisi dengan nilai Standard room, dan nomor 2132. Sedangkan Class book_2132 book bernilai Book of Life, Slice of life, dan rilis pada tahun 2005. Lalu keduanya di deklarasikan dan dicetak dengan operasi cout.
 
-### 3.
+- Fungsi Class<br/>
+Class merupakan salah satu konsep OOP digunakan untuk mengemas data abstrak procedural sebagai gambaran umum atau desain suatu objek, yang dapat digunakan oleh metode apa pun untuk mendefinisikan atau mendeskripsikan konten.
+
+- Fungsi Struct<br/>
+Struct merupakan sekumpul data yang dikelompokkan dalam sebuah tabel yang memiliki nilai-niali yang terkait bersama. Struct digunakaa saat data-data tersebut mempunyai hubungan.
+
+### 3. Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari array dengan map.
 
 ```C++
 
@@ -321,8 +330,29 @@ int main() {
     return 0;
 }
 ```
+#### Output:
+![Screenshot Output Unguided 3](Output-Unguided-3_Sinta.png)
+
+Kode diatas menggunakan library map untuk menyimpan pasangan "key"-nilai. Map book__2132 dideklarasikan dengan "key" int dan nilai string, pada kode diatas menambahkan elemen-elemen dengan "key". Program akan mencetak nomor dan judul buku dalam map dengan looping for.
+
+Perbedaan Array dan Map
+
+Array <br/>
+- Menggunakan indeks yang mulai dari nilai 0 dan berurutan.
+- Ukuran yang dideklarasikan dan tetap.
+- Hanya menyimpan data tipe data primitif.
+- Lebih digunakan saat data yang disimpan berurutan.
+
+Map<br/>
+- Menggunkan "key" yang mulai dari 1, dapat bernilai apapun, dan tidak harus berurutan.
+- Data yang diakses berdasarkan "key"
+- Deklarasi ukuran yang dinamis.
+- Dapat menyimpan tipe data apapun.
+- Lebih digunkaan saat data yang disimpan tidak berurutan.
+
 ## Kesimpulan
-Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1].
+Tipe data merupukan hal yang sangat signifikan dalam pemograman C++ dan bahasa lain. Tipe data merupakan elemen yang menentukan jenis dan karakteristik nilai yang dapat disimpan dan operasi apa yang dapat dilakukan kepada nilai tersebut. Dengan memahami dan mengerti tipe data, kita dapat pemahaman yang lebih tinggi dalam menulis program dengan bena dan akurat.
 
 ## Referensi
-[1] I. Holm, Narrator, and J. Fullerton-Smith, Producer, How to Build a Human [DVD]. London: BBC; 2002.
+[1] Putri,M.P., Barovih, G., Azdy,R.A., Yuniansyah, Saputra, A., Sriyeni, Y., Rini, A., & Admojo, F.T. *Algoritma dan Struktur Data*. Bandung: Widina Bhakti Persada, 2022.
+[2] Meidyan Permata Putri, et al., *Algoritma dan Struktur Data*. Bandung: Widina Bhakti Persada Bandung, 2022.
