@@ -8,10 +8,10 @@ Tipe data merupakan kategori yang digunakan untuk mengklasifikasikan data berdas
 **1. Tipe Data Primitif**
 
 Tipe data primitif merupukan tipe data dasar yang disediakan oleh bahasa pemrograman termasuk C++. Tipe data ini tidak bisa diubah atau dipecah menjadi bagian yang lebih kecil. Berikut adalah contoh tipe data primitif;
-    - Bilangan bulat: byte, short, int, long
-    - Bilangan desimal: float, double
-    - Karakter: char
-    - Nilai boolean: boolean (true/false)
+-  Bilangan bulat: byte, short, int, long
+- Bilangan desimal: float, double
+- Karakter: char
+- Nilai boolean: boolean (true/false)
 
 **2. Tipe Data Abstrak**
 
@@ -20,9 +20,10 @@ Tipe data abstrak merupakan tipe data yang dibentuk oleh programmer sendiri. Dat
 **3. Tipe Data Koleksi**
 
 Tipe data koleksi atau Collection Data Type merupakan tipe data yang digunkan untuk menyimpan sebuah kelompok data yang mempunyai nilai atau objek secara besamaan. Collection data memungkinkan programmer untuk menyimpan, mengelola, dan mengakses dara besar dengan cara terstruktur. Beberapa tipe data koleksi, yaitu;
-    - Array, sebuah data statis yang dapat menyimpan sekelompok elemen dengan tipe data yang sama, elemen tersebut dapat diakses dengan indeks.
-    - Vector, mempunyai fungsi mirip dengan array untuk menyimpan data dalam bentuk elemen-elemen yang alokasi memori dilakukan secara otomatis dan bersebelahan.
-    - Map, mirip dengan array tetapi memungkinkan untuk lebih dari satu tipe data selain integer dan pada map indeks disebut "key". Map digunakan Self-Balancing Tree khususnya Red-Black Tree.
+
+- Array, sebuah data statis yang dapat menyimpan sekelompok elemen dengan tipe data yang sama, elemen tersebut dapat diakses dengan indeks.
+- Vector, mempunyai fungsi mirip dengan array untuk menyimpan data dalam bentuk elemen-elemen yang alokasi memori dilakukan secara otomatis dan bersebelahan.
+- Map, mirip dengan array tetapi memungkinkan untuk lebih dari satu tipe data selain integer dan pada map indeks disebut "key". Map digunakan Self-Balancing Tree khususnya Red-Black Tree.
 
 ## Guided 
 
