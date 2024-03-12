@@ -354,5 +354,5 @@ Map<br/>
 Tipe data merupukan hal yang sangat signifikan dalam pemograman C++ dan bahasa lain. Tipe data merupakan elemen yang menentukan jenis dan karakteristik nilai yang dapat disimpan dan operasi apa yang dapat dilakukan kepada nilai tersebut. Dengan memahami dan mengerti tipe data, kita dapat pemahaman yang lebih tinggi dalam menulis program dengan bena dan akurat.
 
 ## Referensi
-[1] Putri,M.P., Barovih, G., Azdy,R.A., Yuniansyah, Saputra, A., Sriyeni, Y., Rini, A., & Admojo, F.T. *Algoritma dan Struktur Data*. Bandung: Widina Bhakti Persada, 2022.
+[1] Putri,M.P., Barovih, G., Azdy,R.A., Yuniansyah, Saputra, A., Sriyeni, Y., Rini, A., & Admojo, F.T. *Algoritma dan Struktur Data*. Bandung: Widina Bhakti Persada, 2022.<br/>
 [2] Meidyan Permata Putri, et al., *Algoritma dan Struktur Data*. Bandung: Widina Bhakti Persada Bandung, 2022.
