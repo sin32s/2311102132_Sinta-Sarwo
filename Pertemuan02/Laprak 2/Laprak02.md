@@ -3,15 +3,15 @@
 
 ## Dasar Teori
 Array merupakan suatu tipe data terstruktur yang digunakan dalam bahasa pemrograman untuk menyimpan data atau elemen dengan tipe data yang sama. Array menyimpan data dalam indeks yang mulai dari 0 sampai N-1, dimana N adalah ukuran array dan dapat kita akses dengan indeknya. Dalam pemrograman array sering digunakan untuk menyimpan data seperti bilangan (int), karakter (char), string, dan sebagainya. Array memiliki beberapa jenis yaitu:
-1. Array 1 Dimensi<br\>
+1. Array 1 Dimensi<br/>
 Array 1  dimensi atau vector merupakan suat array yang hanya memiliki satu baris, di mana data atau elemen arraynya hanya ditunjukkan oleh satu indeks.
 Contoh:
     - int Bilangan[10], deklarasi array untuk menyimpan data integer dengan ukuran 10.
-2. Array 2 Dimensi<br\>
+2. Array 2 Dimensi<br/>
 Array 2 dimensi merupakan array yang terdiri dari elemen-elemen yang disusun dalam baris dan kolom. Setiap elemen dapat diakses menggunakan dua indeks, indeks baris dan indeks kolom. Array 2 dimensi ini biasanya digunakan untuk merepresentasikan data yang terkait dengan baris dan kolom, seperti tabel, matriks, atau citra.
 Contoh:
     - int Matriks[3][3], deklarasi array 2 dimensi dengan 3 baris dan 3 kolom.
-3. Array Multi Dimensi <br\>
+3. Array Multi Dimensi <br/>
 Array Multi dimensi mempunyai lebih dari dua baris dan kolom. Dalam array 2 dimensi, data disusun dalam baris dan kolom, sedangkan dalam array multi-dimensi yang lebih tinggi, data akan disusun dalam tiga atau lebih dimensi. Elemen dapat diakses menggunakan indeks yang sesuai dengan jumlah dimensi yang dimiliki. Array multi-dimensi sering digunakan daam pemograman untuk merepresentasikan data kompleks, dan untuk mempermudah pemrosesan data dalam bentuk matriks dan tabel.
 Contoh:
     - int Matriks[3][3], array 2 dimensi termasuk sebagai array multi dimensi.
@@ -318,9 +318,9 @@ Kode di atas digunakan untuk menghitung maksimum, minimum, dan rata-rata dengan 
 
 ## Kesimpulan
 Array merupakan tipe data terstruktur yang digunakan dalam pemrograman untuk menyimpan elemen dengan tipe data yang sama. Beberapa jenis array:
-1. Array 1 dimensi, hanya memiliki satu baris dan elemen diakses melalui satu indeks. Format deklarasi, (tipe_data) Nama_variable[].<br\>
-2. Array 2 dimensi, memiliki dua baris dan dua kolom, sering digunakan dalam data tabel dan matriks. Format deklarasi, (tipe_data) Nama_variable[][]. <br\>
-3. Array multi dimensi, Memiliki lebih dari dua dimensi, digunakan untuk data kompleks seperti matriks tiga dimensi atau kubus. Semua jenis array ini memungkinkan kita untuk menyimpan dan memanipulasi data dengan lebih efisien dalam pemrograman. Format deklarasi, (tipe_data) Nama_variable[][][]++.
+1. Array 1 dimensi, hanya memiliki satu baris dan elemen diakses melalui satu indeks. Format deklarasi, (tipe_data) Nama_variable[].<br/>
+2. Array 2 dimensi, memiliki dua baris dan dua kolom, sering digunakan dalam data tabel dan matriks. Format deklarasi, (tipe_data) Nama_variable[][]. <br/>
+3. Array multi dimensi, Memiliki lebih dari dua dimensi, digunakan untuk data kompleks seperti matriks tiga dimensi atau kubus. Semua jenis array ini memungkinkan kita untuk menyimpan dan memanipulasi data dengan lebih efisien dalam pemrograman. Format deklarasi, (tipe_data) Nama_variable[][][]++.<br/>
 
 Semua jenis array ini memungkinkan kita untuk menyimpan dan memanipulasi data dengan lebih efisien dalam pemrograman.
 
