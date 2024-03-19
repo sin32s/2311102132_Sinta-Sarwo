@@ -4,13 +4,16 @@
 ## Dasar Teori
 Array merupakan suatu tipe data terstruktur yang digunakan dalam bahasa pemrograman untuk menyimpan data atau elemen dengan tipe data yang sama. Array menyimpan data dalam indeks yang mulai dari 0 sampai N-1, dimana N adalah ukuran array dan dapat kita akses dengan indeknya. Dalam pemrograman array sering digunakan untuk menyimpan data seperti bilangan (int), karakter (char), string, dan sebagainya. Array memiliki beberapa jenis yaitu:
 1. Array 1 Dimensi<br\>
-Array 1  dimensi atau vector merupakan suat array yang hanya memiliki satu baris, di mana data atau elemen arraynya hanya ditunjukkan oleh satu indeks. Contoh:
+Array 1  dimensi atau vector merupakan suat array yang hanya memiliki satu baris, di mana data atau elemen arraynya hanya ditunjukkan oleh satu indeks.
+Contoh:
     - int Bilangan[10], deklarasi array untuk menyimpan data integer dengan ukuran 10.
 2. Array 2 Dimensi<br\>
-Array 2 dimensi merupakan array yang terdiri dari elemen-elemen yang disusun dalam baris dan kolom. Setiap elemen dapat diakses menggunakan dua indeks, indeks baris dan indeks kolom. Array 2 dimensi ini biasanya digunakan untuk merepresentasikan data yang terkait dengan baris dan kolom, seperti tabel, matriks, atau citra. Contoh:
+Array 2 dimensi merupakan array yang terdiri dari elemen-elemen yang disusun dalam baris dan kolom. Setiap elemen dapat diakses menggunakan dua indeks, indeks baris dan indeks kolom. Array 2 dimensi ini biasanya digunakan untuk merepresentasikan data yang terkait dengan baris dan kolom, seperti tabel, matriks, atau citra.
+Contoh:
     - int Matriks[3][3], deklarasi array 2 dimensi dengan 3 baris dan 3 kolom.
 3. Array Multi Dimensi <br\>
-Array Multi dimensi mempunyai lebih dari dua baris dan kolom. Dalam array 2 dimensi, data disusun dalam baris dan kolom, sedangkan dalam array multi-dimensi yang lebih tinggi, data akan disusun dalam tiga atau lebih dimensi. Elemen dapat diakses menggunakan indeks yang sesuai dengan jumlah dimensi yang dimiliki. Array multi-dimensi sering digunakan daam pemograman untuk merepresentasikan data kompleks, dan untuk mempermudah pemrosesan data dalam bentuk matriks dan tabel. Contoh:
+Array Multi dimensi mempunyai lebih dari dua baris dan kolom. Dalam array 2 dimensi, data disusun dalam baris dan kolom, sedangkan dalam array multi-dimensi yang lebih tinggi, data akan disusun dalam tiga atau lebih dimensi. Elemen dapat diakses menggunakan indeks yang sesuai dengan jumlah dimensi yang dimiliki. Array multi-dimensi sering digunakan daam pemograman untuk merepresentasikan data kompleks, dan untuk mempermudah pemrosesan data dalam bentuk matriks dan tabel.
+Contoh:
     - int Matriks[3][3], array 2 dimensi termasuk sebagai array multi dimensi.
     - Kubus 3x3x3, setiap elemen memiliki koordinat tiga-dimensi (tinggi, lebar, kedalaman).
 
@@ -307,8 +310,8 @@ int main() {
     }
 ```
 #### Output:
-![Screenshot Output Unguided 3](Output-Unguided-3'1_Sinta.png)
-![Screenshot Output Unguided 3](Output-Unguided-3'2_Sinta.png)
+![Screenshot Output Unguided 3'1](Output-Unguided-3'1_Sinta.png)
+![Screenshot Output Unguided 3'2](Output-Unguided-3'2_Sinta.png)
 
 Kode di atas digunakan untuk menghitung maksimum, minimum, dan rata-rata dengan array 1 dimensi. Pada kode di atas user akan menentukan ukuran dan nilai array yang akan di operasikan. Setelah user menginputkan ukuran dan nilai array, hasil array tersebut akan di tampilkan dalam output, dan program akan lanjut kepada menu untuk operator maksimum, minimum, dan rata-rata. Dalam bagian kode ini user dapat menginput operasi yang di lakukan dalam array yang telah di input. Pada pilihan 1, program akan mencari nilai maksimum dan menampilkan hasil nilai maksimum dan lokasi nilai maksimum. Pada pilah 2, program akan mencari nilai minimum dan menampilkan hasil nilai minimum dan lokasi nilai minimum. Pada pilihan 3, program akan mencari nilai rata-rata dari array dan menampilkan hasil perhitungan. Pada pilihan 4, program akan berhenti dan menampilkan "Thank you for using 2132 program :D". Program akan berlanjut dari tampilan menu untuk mengoperasikan maksimum, minimum, dan rata-rata, hingga user menginputkan 4 atau 0 program akan berhenti.
 
