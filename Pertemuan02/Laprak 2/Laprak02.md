@@ -5,16 +5,16 @@
 Array merupakan suatu tipe data terstruktur yang digunakan dalam bahasa pemrograman untuk menyimpan data atau elemen dengan tipe data yang sama. Array menyimpan data dalam indeks yang mulai dari 0 sampai N-1, dimana N adalah ukuran array dan dapat kita akses dengan indeknya. Dalam pemrograman array sering digunakan untuk menyimpan data seperti bilangan (int), karakter (char), string, dan sebagainya. Array memiliki beberapa jenis yaitu:
 1. Array 1 Dimensi<br\>
 Array 1  dimensi atau vector merupakan suat array yang hanya memiliki satu baris, di mana data atau elemen arraynya hanya ditunjukkan oleh satu indeks. Contoh:
-- int Bilangan[10], deklarasi array untuk menyimpan data integer dengan ukuran 10.
+    - int Bilangan[10], deklarasi array untuk menyimpan data integer dengan ukuran 10.
 2. Array 2 Dimensi<br\>
 Array 2 dimensi merupakan array yang terdiri dari elemen-elemen yang disusun dalam baris dan kolom. Setiap elemen dapat diakses menggunakan dua indeks, indeks baris dan indeks kolom. Array 2 dimensi ini biasanya digunakan untuk merepresentasikan data yang terkait dengan baris dan kolom, seperti tabel, matriks, atau citra. Contoh:
-- int Matriks[3][3], deklarasi array 2 dimensi dengan 3 baris dan 3 kolom.
+    - int Matriks[3][3], deklarasi array 2 dimensi dengan 3 baris dan 3 kolom.
 3. Array Multi Dimensi <br\>
 Array Multi dimensi mempunyai lebih dari dua baris dan kolom. Dalam array 2 dimensi, data disusun dalam baris dan kolom, sedangkan dalam array multi-dimensi yang lebih tinggi, data akan disusun dalam tiga atau lebih dimensi. Elemen dapat diakses menggunakan indeks yang sesuai dengan jumlah dimensi yang dimiliki. Array multi-dimensi sering digunakan daam pemograman untuk merepresentasikan data kompleks, dan untuk mempermudah pemrosesan data dalam bentuk matriks dan tabel. Contoh:
-- int Matriks[3][3], array 2 dimensi termasuk sebagai array multi dimensi.
-- Kubus 3x3x3, setiap elemen memiliki koordinat tiga-dimensi (tinggi, lebar, kedalaman).
+    - int Matriks[3][3], array 2 dimensi termasuk sebagai array multi dimensi.
+    - Kubus 3x3x3, setiap elemen memiliki koordinat tiga-dimensi (tinggi, lebar, kedalaman).
 
-///## Guided 
+## Guided 
 
 ### 1. Program input array tiga dimensi
 
@@ -150,7 +150,7 @@ int main() {
 }
 ```
 #### Output:
-![Screenshot Output Unguided 1](Output-Unguided-1-Laprak2_Sinta.png)
+![Screenshot Output Unguided 1](Output-Unguided-1_Sinta.png)
 
 Kode di atas menggunakan array 1 dimensi, user akan menentukan ukuran program dan nilai program. Kode di atas akan menunjukan hasil data array yang user masukan. Program akan menyortir bilangan genap dan ganjil dalam array masing-masing, dengan menggunakan perulangan dan kondisi untuk bilang genap dan ganjil. Program akan menunjukan hasil sortiran pada array masing-masing.
 
@@ -204,7 +204,7 @@ int main() {
 }
 ```
 #### Output:
-![Screenshot Output Unguided 2](Output-Unguided-2-Laprak2_Sinta.png)
+![Screenshot Output Unguided 2](Output-Unguided-2_Sinta.png)
 
 Kode diatas mempunyai kesamaan dengan program guided 1, kedua program menggunakan array 3 dimensi. Namun, pada kode di atas user dapat menentukan ukurana array 3 dimensi dan menginput nilai array tersebut, guided 1 hanya dapat menginputkan nilai array. Kode di atas akan menunjukan hasil inputan array oleh user.
 
@@ -306,17 +306,20 @@ int main() {
     return 0;
     }
 ```
-
-Kode di atas digunakan untuk menghitung maksimum, minimum, dan rata-rata dengan array 1 dimensi. Pada kode di atas user akan menentukan ukuran dan nilai array yang akan di operasikan. Setelah user menginputkan ukuran dan nilai array, hasil array tersebut akan di tampilkan dalam output, dan program akan lanjut kepada menu untuk operator maksimum, minimum, dan rata-rata. Dalam bagian kode ini user dapat menginput operasi yang di lakukan dalam array yang telah di input. Pada pilih 1, program akan mencari nilai maksimum dan menunjukan te
-
 #### Output:
-![Screenshot Output Unguided 3](Output-Unguided-3'1-Laprak2_Sinta.png)
-![Screenshot Output Unguided 3](Output-Unguided-3'2-Laprak2_Sinta.png)
+![Screenshot Output Unguided 3](Output-Unguided-3'1_Sinta.png)
+![Screenshot Output Unguided 3](Output-Unguided-3'2_Sinta.png)
 
-Kode diatas...
+Kode di atas digunakan untuk menghitung maksimum, minimum, dan rata-rata dengan array 1 dimensi. Pada kode di atas user akan menentukan ukuran dan nilai array yang akan di operasikan. Setelah user menginputkan ukuran dan nilai array, hasil array tersebut akan di tampilkan dalam output, dan program akan lanjut kepada menu untuk operator maksimum, minimum, dan rata-rata. Dalam bagian kode ini user dapat menginput operasi yang di lakukan dalam array yang telah di input. Pada pilihan 1, program akan mencari nilai maksimum dan menampilkan hasil nilai maksimum dan lokasi nilai maksimum. Pada pilah 2, program akan mencari nilai minimum dan menampilkan hasil nilai minimum dan lokasi nilai minimum. Pada pilihan 3, program akan mencari nilai rata-rata dari array dan menampilkan hasil perhitungan. Pada pilihan 4, program akan berhenti dan menampilkan "Thank you for using 2132 program :D". Program akan berlanjut dari tampilan menu untuk mengoperasikan maksimum, minimum, dan rata-rata, hingga user menginputkan 4 atau 0 program akan berhenti.
+
 
 ## Kesimpulan
-Array...
+Array merupakan tipe data terstruktur yang digunakan dalam pemrograman untuk menyimpan elemen dengan tipe data yang sama. Beberapa jenis array:
+1. Array 1 dimensi, hanya memiliki satu baris dan elemen diakses melalui satu indeks. Format deklarasi, (tipe_data) Nama_variable[].<br\>
+2. Array 2 dimensi, memiliki dua baris dan dua kolom, sering digunakan dalam data tabel dan matriks. Format deklarasi, (tipe_data) Nama_variable[][]. <br\>
+3. Array multi dimensi, Memiliki lebih dari dua dimensi, digunakan untuk data kompleks seperti matriks tiga dimensi atau kubus. Semua jenis array ini memungkinkan kita untuk menyimpan dan memanipulasi data dengan lebih efisien dalam pemrograman. Format deklarasi, (tipe_data) Nama_variable[][][]++.
+
+Semua jenis array ini memungkinkan kita untuk menyimpan dan memanipulasi data dengan lebih efisien dalam pemrograman.
 
 ## Referensi
 [1] Putri, et al., Algoritma dan Struktur Data. Bandung: Widina Bhakti Persada, 2022.<br/>
