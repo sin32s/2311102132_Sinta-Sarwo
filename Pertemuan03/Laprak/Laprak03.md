@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 2 - Array</h1>
+# <h1 align="center">Laporan Praktikum Modul 3 - Linked list</h1>
 <p align="center">Sinta Sarwo - 2311102132</p>
 
 ## Dasar Teori
