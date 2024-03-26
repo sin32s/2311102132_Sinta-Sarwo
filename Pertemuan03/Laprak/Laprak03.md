@@ -3,7 +3,7 @@
 
 ## Dasar Teori
 
-Linked list merupakan struktur data yang terdiri dari sekumpul node atau elemen yang saling terhubung. Setiap node memiliki dua bagian, data dan refresnsi ke node berikutnya dalam urutan. Beberapa jenis Linked List: <br/>
+Linked list merupakan struktur data yang terdiri dari sekumpul node atau elemen yang saling terhubung. Setiap node memiliki dua bagian, data dan refrensi ke node berikutnya dalam urutan. Beberapa jenis Linked List: <br/>
 1. Single Linked List<br/>
 Setiap node memiliki refrensi ke node berikutnya saja. Akhir dari list ini ditandai dengan node yang refrensinya adalah NULL. Single linked list biasa digunakan jika user hanya memerlukan traversal dalam satu arah.
 2. Double Linked List<br/>
