@@ -3,14 +3,14 @@
 
 ## Dasar Teori
 
-Linked list merupakan struktur data yang terdiri dari sekumpul node atau elemen yang saling terhubung. Setiap node memiliki dua bagian, data dan refresnsi ke node berikutnya dalam urutan. Beberapa jenis Linked List: <br\>
-1. Single Linked List<br\>
+Linked list merupakan struktur data yang terdiri dari sekumpul node atau elemen yang saling terhubung. Setiap node memiliki dua bagian, data dan refresnsi ke node berikutnya dalam urutan. Beberapa jenis Linked List: <br/>
+1. Single Linked List<br/>
 Setiap node memiliki refrensi ke node berikutnya saja. Akhir dari list ini ditandai dengan node yang refrensinya adalah NULL. Single linked list biasa digunakan jika user hanya memerlukan traversal dalam satu arah.
-2. Double Linked List<br\>
+2. Double Linked List<br/>
 Pada Linked ini setiap node memiliki dua refrensi, satu ke node sebelumnya dan ke node berikutnya. Karena ini memungkinkan pergerakan dua arah dalam list. Double linked list biasa digunakan jika user memerlukan traversal dalam dua arah.
-3. Circular Linked List<br\>
+3. Circular Linked List<br/>
 Circlar linked list mirip dengan single linked list, tetapi node terakhir dalam list ini mengarah kembali ke node pertama (head), membentuk lingkaran. Linked list ini biasa digunakan dalam sistem operasi untuk menjalankan proses secara round-robin, dimana setiap proses mendapatkan slot waktu CPU dan kemudian dipindahkan ke belakang antrian.
-4. Double Circular Linked List<br\>
+4. Double Circular Linked List<br/>
 Double circular linked list mirip dengan double linked list, tetapi node terakhir mengarah ke node pertama dan node pertama mengarah ke node terakhir. Dapat digunakan dalam aplikasi seperti penjelajahan gambar, di mana user dapat menavigasi maju atau mundur melalui sekumpulan gambar dan setelah mencapai akhir, navigasi akan kembali ke awal.
 
 Linked list merupakan struktur data yang lebih fleksibel dari array. Setiap jenis linked list memiliki kegunaan dan aplikasinya masing-masing tergantung pada kebutuhan dan keinginan user. 
@@ -310,7 +310,7 @@ int main() {
     return 0;
 }
 ```
-Kode di atas digunakan untuk menjalankan single linked list non-circular. Kode di atas mengdeklarasi struct node dengan int data dan Node* next. Kode di atas juga mempunyai banyak fungsi dan mempunyai kegunaan masing-masing; <br\>
+Kode di atas digunakan untuk menjalankan single linked list non-circular. Kode di atas mengdeklarasi struct node dengan int data dan Node* next. Kode di atas juga mempunyai banyak fungsi dan mempunyai kegunaan masing-masing; <br/>
 
 1. void init(), berfungsi untuk menginisialisasi head dan tail dari linked list pada NULL.
 2. bool isEmpty(), menggunakan bool untuk memeriksa jika linked list kosong dengan memeriksa headnya NULL. Fungsi akan mengembalikan nilai true jika kosong, dan false jika tidak.
@@ -487,7 +487,7 @@ int main() {
     return 0;
 }
 ```
-Kode di atas digunakan untuk menjalankan double linked list. Kode di atas menggunakan class public node yang memiliki int data, Node* prev, dan Node* next. Di mana int data merupakan nilai yang disimpan dalam node, Node* head merupakan pointer ke node pertama dalam list dan sabliknya untuk Node* tail. Class DoublyLinkedList ini mempresentasikan linked list dan memiliki dua atribut head yaitu pointer ke node pertama dan sebaliknya untuk tail. Pada class ini juga memiliki beberapa fungsi:
+Kode di atas digunakan untuk menjalankan double linked list. Kode di atas menggunakan class public node yang memiliki int data, Node* prev, dan Node* next. Di mana int data merupakan nilai yang disimpan dalam node, Node* head merupakan pointer ke node pertama dalam list dan sabliknya untuk Node* tail. Class DoublyLinkedList ini mempresentasikan linked list dan memiliki dua atribut head yaitu pointer ke node pertama dan sebaliknya untuk tail. Pada class ini juga memiliki beberapa fungsi:<br/>
 1. void push(int data), berfungsi untuk menambahkan node baru ke awal list dengan nilai yang diberikan.
 2. void pop(), berfungsi menghapus node pertama dari list.
 3. bool update(int oldData, int newData), berfungsi mengganti nilai pertama pertama yang cocok dengan oldData dengan newData. Metode ini mengembalikan true jika berhasil dan false jika oldData tidak ditemukan dalam list.
@@ -498,7 +498,7 @@ Kode di atas mempunyai fungsi utama yang menjalankan program menu kepada user un
 
 ## Unguided 
 
-### 1. Soal mengenai Single Linked List <br\>
+### 1. Soal mengenai Single Linked List <br/>
 Buatlah program menu Single Linked List Non-Circular untuk menyimpan Nama dan usia mahasiswa, dengan menggunakan inputan dari user. Lakukan operasi berikut:<br\>
 ![Screenshot Unguided Q1](Unguided-Q1_Sinta.png)
 
@@ -936,17 +936,17 @@ Kode di atas menggunakan single linked list non-circular untuk menyimpan data na
 
 Dari soal yang diberi pada modul 3 kita bisa lihat pada output poin (a) menginsert data-data seperti di poin (a) dan data pertama yang dimasukan adalah nama dan usia praktika dengan InsertDepan_2132 dan di tampilkan dalam program saat dirun. Poin (b) dilakukan dengan menggunakan case 6. Poin (c) dilakukan menggunakan case 3. Poin (d) dilakukan menggunakan case 1. Poin (e) dilakukan menggunakan case 7 dan poin (f) dilakukan menggunakan case 9.
 
-### 2. Soal mengenai Double Linked List <br\>
+### 2. Soal mengenai Double Linked List <br/>
 Modifikasi Guided Double Linked List dilakukan dengan penambahan operasi untuk menambah data, menghapus, dan update di tengah / di urutan tertentu yang diminta. Selain itu, buatlah agar tampilannya menampilkan Nama produk dan harga.
 ![Screenshot Unguided Q2](Unguided-Q2'1_Sinta.png)
 ![Screenshot Unguided Q2](Unguided-Q2'2_Sinta.png)
 
-Case: <br\>
+Case: <br/>
 1. Tambahkan produk Azarine dengan harga 65000 diantara Somethinc dan Skintific
 2. Hapus produk wardah
 3. Update produk Hanasui menjadi Cleora dengan harga 55.000
-4. Tampilkan menu seperti dibawah ini <br\>
-Toko Skincare Purwokerto<br\>
+4. Tampilkan menu seperti dibawah ini <br/>
+Toko Skincare Purwokerto<br/>
  1. Tambah Data
  2. Hapus Data
  3. Update Data
@@ -954,7 +954,7 @@ Toko Skincare Purwokerto<br\>
  5. Hapus Data Urutan Tertentu
  6. Hapus Seluruh Data
  7. Tampilkan Data
- 8. Exit <br\>
+ 8. Exit <br/>
  Pada menu 7, tampilan akhirnya akan menjadi seperti dibawah ini :
 
 ![Screenshot Unguided Q2](Unguided-Q2'3_Sinta.png)
@@ -1275,7 +1275,7 @@ Kode di atas meggunakan Double linked list untuk memodifikasi list produk skinca
 Dari soal yang diberi dari modul 3 kita bisa melihat case 1 dapat dilakukan dengan menggunakan sistem menu 4 dimana user dapat mengposisikan produk azarine diantara Somethinc dan Skintific. Pada case 2 dapat dilakukan menggunakan sistem menu 5 karena ingin menghapus wardah yang berposisi pada 5 di dalam list. Pada case 3 dapat dilakukan menggunakan sistem menu 4 dimana kita mengantinkan Hanasui dengan Cleora. Pade case 4 dapat ditunjukan menggunakan switch-case untuk membuat sistem menu dalam program. Tampilan akhir sesuai dengan modul 3.
 
 ## Kesimpulan
-Linked list merupakan struktur data yang lebih fleksibel dari array. Setiap jenis linked list memiliki kegunaan dan aplikasinya masing-masing tergantung pada kebutuhan dan keinginan user. <br\>
+Linked list merupakan struktur data yang lebih fleksibel dari array. Setiap jenis linked list memiliki kegunaan dan aplikasinya masing-masing tergantung pada kebutuhan dan keinginan user. <br/>
 1. Single linked list, node memiliki refrensi ke node berikutnya saja dan biasa digunakan jika user hanya memerlukan traversal dalam satu arah.
 2. Double linked list setiap node memiliki dua refrensi, satu ke node sebelumnya dan ke node berikutnya.
 3. Circlar linked list, mirip dengan single linked list tetapi berbeda pada node terakhir dalam list ini mengarah kembali ke node pertama (head)
