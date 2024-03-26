@@ -499,7 +499,7 @@ Kode di atas mempunyai fungsi utama yang menjalankan program menu kepada user un
 ## Unguided 
 
 ### 1. Soal mengenai Single Linked List <br/>
-Buatlah program menu Single Linked List Non-Circular untuk menyimpan Nama dan usia mahasiswa, dengan menggunakan inputan dari user. Lakukan operasi berikut:<br\>
+Buatlah program menu Single Linked List Non-Circular untuk menyimpan Nama dan usia mahasiswa, dengan menggunakan inputan dari user. Lakukan operasi berikut:
 ![Screenshot Unguided Q1](Unguided-Q1_Sinta.png)
 
 ```C++
