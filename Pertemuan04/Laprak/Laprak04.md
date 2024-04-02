@@ -1195,7 +1195,8 @@ Kode di atas menggunakan single linked list non-circular untuk menyimpan data na
 
 Dari soal yang deberi pada modul 4 nomor 1 diselesaikan dengan menggunakan fungsi switch-case dan menu yang dibuat untuk menunjukan fungsi-fungsi dalam setiap case.
 
-Jawaban dari soal ke-2 dapat dilihat pada output di atas, dengan menggunakan ke tiga fungsi untuk menambahkan data-data mahasiswa dan menyesuaikan hasil akhir yang terdapat pada modul 4, case 1, 2, dan 3. Hasil tampil data untuk soal 2:<br/>
+Jawaban dari soal ke-2 dapat dilihat pada output di atas, dengan menggunakan ke tiga fungsi untuk menambahkan data-data mahasiswa dan menyesuaikan hasil akhir yang terdapat pada modul 4, case 1, 2, dan 3.<br/>
+Hasil tampil data untuk soal 2:<br/>
 ![Screenshot Output Unguided 1](Output-Unguided-1'6'2_Sinta.png)
 
 Jawaban dari soal ke-3 juga dapat dilihat pada output di atas, dari modul 4 , nomor 3 bagian a dapat dilakukan dengan menggunakan case 3 dimana user dapat menambahkan data Wati di posisi antara Farrel dan Denis. <br/>
@@ -1207,7 +1208,8 @@ Jawaban dari soal ke-3 juga dapat dilihat pada output di atas, dari modul 4 , no
 - Pada bagian g dapat dilakukan menggunakan case 7, user dapat menghapus data mahasasiwa di posisi awal dalam list.
 - Pada bagian h dapat dilakukan menggunakan case 4, user dapat mengubah data awal dengan data mahasiswa Bagas.
 - Pada bagian i dapat dilakukan menggunakan case 8, user dapat menghapus data mahasiswa di posisi terakhir dalam list.
-- Pada bagian j dapat dilakukan menggunakan case 11, user dapat menampilkan hasil dari inputan pada linked list. Hasil:<br/>
+- Pada bagian j dapat dilakukan menggunakan case 11, user dapat menampilkan hasil dari inputan pada linked list.<br/>
+Hasil:<br/>
 ![Screenshot Output Unguided 1](Output-Unguided-1'11'2_Sinta.png)
 
 ## Kesimpulan
