@@ -656,27 +656,29 @@ Kode di atas mirip dengan kode sebelumnya guided 1, tetapi pada kode di atas men
 12. void tampil(), berfungsi untuk menampilkan data di dalam linked list.
 
 Fungsi utama dalam kode di atas untuk menunjukan penggunaan dari circular linked list dengan menambahkan, menghapus, dan memodifikasi node, dan menampilkan data tersebut.
+
+
 ## Unguided 
 
 ### Buatlah program menu Linked List Non Circular untuk menyimpan Nama dan NIM mahasiswa, dengan menggunakan input dari user. 
 
 #### 1. Buatlah menu untuk menambahkan, mengubah, menghapus, dan melihat Nama dan NIM mahasiswa, berikut contoh tampilan output dari nomor 1:  <br/>
-- Tampilan Menu:
+- Tampilan Menu:<br/>
 ![Screenshot Unguided Q1](Unguided-Q1_Sinta.png)
 
-- Tampilan Operasi Tambah
+- Tampilan Operasi Tambah:<br/>
 ![Screenshot Unguided Q1](Unguided-Q1'2_Sinta.png)
 ![Screenshot Unguided Q1](Unguided-Q1'3_Sinta.png)
 
-- Tampilan Operasi Hapus:
+- Tampilan Operasi Hapus:<br/>
 ![Screenshot Unguided Q1](Unguided-Q1'4_Sinta.png)
 ![Screenshot Unguided Q1](Unguided-Q1'5_Sinta.png)
 
-- Tampilan Operasi Ubah:
+- Tampilan Operasi Ubah:<br/>
 ![Screenshot Unguided Q1](Unguided-Q1'6_Sinta.png)
 ![Screenshot Unguided Q1](Unguided-Q1'7_Sinta.png)
 
-- Tampilan Operasi Tampil Data:
+- Tampilan Operasi Tampil Data:<br/>
 ![Screenshot Unguided Q1](Unguided-Q1'8_Sinta.png)
 
 #### 2. Setelah membuat menu tersebut, masukkan data sesuai urutan berikut, lalu tampilkan data yang telah dimasukkan. (Gunakan insert depan, belakang atau tengah)<br/>
@@ -1193,7 +1195,7 @@ Kode di atas menggunakan single linked list non-circular untuk menyimpan data na
 
 Dari soal yang deberi pada modul 4 nomor 1 diselesaikan dengan menggunakan fungsi switch-case dan menu yang dibuat untuk menunjukan fungsi-fungsi dalam setiap case.
 
-Jawaban dari soal ke-2 dapat dilihat pada output di atas, dengan menggunakan ke tiga fungsi untuk menambahkan data-data mahasiswa dan menyesuaikan hasil akhir yang terdapat pada modul 4, case 1, 2, dan 3. Hasil tampil data untuk soal 2:
+Jawaban dari soal ke-2 dapat dilihat pada output di atas, dengan menggunakan ke tiga fungsi untuk menambahkan data-data mahasiswa dan menyesuaikan hasil akhir yang terdapat pada modul 4, case 1, 2, dan 3. Hasil tampil data untuk soal 2:<br/>
 ![Screenshot Output Unguided 1](Output-Unguided-1'6'2_Sinta.png)
 
 Jawaban dari soal ke-3 juga dapat dilihat pada output di atas, dari modul 4 , nomor 3 bagian a dapat dilakukan dengan menggunakan case 3 dimana user dapat menambahkan data Wati di posisi antara Farrel dan Denis. <br/>
@@ -1205,7 +1207,7 @@ Jawaban dari soal ke-3 juga dapat dilihat pada output di atas, dari modul 4 , no
 - Pada bagian g dapat dilakukan menggunakan case 7, user dapat menghapus data mahasasiwa di posisi awal dalam list.
 - Pada bagian h dapat dilakukan menggunakan case 4, user dapat mengubah data awal dengan data mahasiswa Bagas.
 - Pada bagian i dapat dilakukan menggunakan case 8, user dapat menghapus data mahasiswa di posisi terakhir dalam list.
-- Pada bagian j dapat dilakukan menggunakan case 11, user dapat menampilkan hasil dari inputan pada linked list. Hasil:
+- Pada bagian j dapat dilakukan menggunakan case 11, user dapat menampilkan hasil dari inputan pada linked list. Hasil:<br/>
 ![Screenshot Output Unguided 1](Output-Unguided-1'11'2_Sinta.png)
 
 ## Kesimpulan
