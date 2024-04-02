@@ -1078,7 +1078,7 @@ int main()
             cout << "Masukkan NIM: ";
             cin >> nim_2132; //Memasukan data NIM mahasiswa yang ingin diubah
 
-            string oldName_2132 = head->Name_2132; // deklarasi oldName_2132 untuk nama mahasiswa yang sebelum diubah untuk ditampilkan di output
+            string oldName_2132 = head->Name_2132; // deklarasi oldName_2132 untuk data mahasiswa yang sebelum diubah untuk ditampilkan di output
             ModifyFront_2132(name_2132, nim_2132); //Memanggil fungsi ModifyFront_2132
             cout << "Data [" << oldName_2132 <<"] succefully modify to [" << name_2132 << "]!" << endl;
             cout << endl;
@@ -1091,7 +1091,7 @@ int main()
             cout << "Masukkan NIM: ";
             cin >> nim_2132; //Memasukan data NIM mahasiswa yang ingin diubah
 
-            string oldName_2132 = tail->Name_2132; // deklarasi oldName_2132 untuk nama mahasiswa yang sebelum diubah untuk ditampilkan di output
+            string oldName_2132 = tail->Name_2132; // deklarasi oldName_2132 untuk data mahasiswa yang sebelum diubah untuk ditampilkan di output
             ModifyBack_2132(name_2132, nim_2132); //Memanggil fungsi Modifyback_2132
             cout << "Data [" << oldName_2132 <<"] succefully modify to [" << name_2132 << "]!" << endl;
             cout << endl;
@@ -1101,9 +1101,9 @@ int main()
         {
             cout << "   2132   Mengubah Data Mahasiswa Pada Posisi Tengah   2132   \n" << endl;
             cout << "Masukkan nama: ";
-            cin >> name_2132; //Memasukan data nama mahasiswa yang baru
+            cin >> name_2132; //Memasukan data Nama mahasiswa yang baru
             cout << "Masukkan NIM: ";
-            cin >> nim_2132; //Memasukan data umur mahasiswa yang baru
+            cin >> nim_2132; //Memasukan data NIM mahasiswa yang baru
             cout << "Masukkan posisi: ";
             cin >> position_2132; //Memasukan posisi data mahasiswa yang ingin diubah
 
@@ -1112,7 +1112,7 @@ int main()
             {
                 bantu = bantu->next;
             }
-            string oldName_2132 = bantu->Name_2132; // deklarasi oldName_2132 untuk nama mahasiswa yang sebelum diubah untuk ditampilkan di output
+            string oldName_2132 = bantu->Name_2132; // deklarasi oldName_2132 untuk data mahasiswa yang sebelum diubah untuk ditampilkan di output
             ModifyMiddle_2132(name_2132, nim_2132, position_2132); //Memanggil fungsi ModifyMiddle_2132
             cout << "Data [" << oldName_2132 <<"] succefully modify to [" << name_2132 << "]!" << endl;
             cout << endl;
@@ -1121,7 +1121,7 @@ int main()
         case 7:{
             cout << "   2132   Menghapus Data Mahasiswa Pada Posisi Depan   2132   \n" << endl;
             DeleteFront_2132(); //Memanggil fungsi DeleteFront_2132
-            string oldName_2132 = head->Name_2132; // deklarasi oldName_2132 untuk nama mahasiswa yang akan di hapus
+            string oldName_2132 = head->Name_2132; // deklarasi oldName_2132 untuk data mahasiswa yang akan di hapus
             cout << "Data "<< oldName_2132 <<" succefully deleted!" << endl;
             cout << endl;
             break;
@@ -1129,7 +1129,7 @@ int main()
         case 8:{
             cout << "   2132   Menghapus Data Mahasiswa Pada Posisi Belakang   2132   \n" << endl;
             DeleteBack_2132(); //Memanggil fungsi DeleteBack_2132
-            string oldName_2132 = tail->Name_2132; // deklarasi oldName_2132 untuk nama mahasiswa yang akan di hapus
+            string oldName_2132 = tail->Name_2132; // deklarasi oldName_2132 untuk data mahasiswa yang akan di hapus
             cout << "Data " << oldName_2132 << " succefully deleted!" << endl;
             cout << endl;
             break;
@@ -1145,7 +1145,7 @@ int main()
             {
                 bantu = bantu->next;
             }
-            string oldName_2132 = bantu->Name_2132; // deklarasi oldName_2132 untuk nama mahasiswa yang akan di hapus
+            string oldName_2132 = bantu->Name_2132; // deklarasi oldName_2132 untuk data mahasiswa yang akan di hapus
             DeleteMiddle_2132(position_2132); //Memanggil fungsi DeleteMiddle_2132
             cout << "Data " << oldName_2132 << " succefully deleted!" << endl;
             cout << endl;
