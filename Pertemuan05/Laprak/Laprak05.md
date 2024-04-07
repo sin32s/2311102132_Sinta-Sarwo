@@ -8,7 +8,7 @@
 
 ### 1. Guided 1
 
-Hash tabel merupakan struktur data yang digunakan untuk menyimpan dan mengambil data secara efisien menggunkan kunci-nilai. Hash tabel biasanya terdiri dari dua komponen utama: array/vektor dan fungsi hash. Data akan dipetakan ke posisi array dengan fungsi hash yang akan menghasilkan nilai dari setiap kunci.
+Hash tabel merupakan struktur data yang digunakan untuk menyimpan dan mengambil data secara efisien menggunkan kunci-nilai. Hash tabel biasanya terdiri dari dua komponen utama: array/vektor dan fungsi hash. Data akan dipetakan ke posisi array dengan fungsi hash yang akan menghasilkan nilai dari setiap kunci.<br/>
 ![Screenshot Dasar Teori 1](DasarTeori-1_Sinta.png)
 
 - Fungsi Hash Tabel<br/>
