@@ -15,12 +15,12 @@ Hash tabel merupakan struktur data yang digunakan untuk menyimpan dan mengambil 
 Fungsi hash merupakan rumus matematika yang ketika dilakukan pada sebuah kunci maka akan menghasilkan sebuah nilai yang dapat digunakan sebagai indeks untuk kunci tersebut di dalam tabel hash. Tujuan dalam menggunakan fungsi hash agar elemen-elemen terdistribusi secara seragam. Fungsis ini akan menghasilkan sekumpul bilangan bulat yang unik dalam suaatu rentang yang sesuai untuk mengurangi jumlah tabrakan.
 
 - Beberapa contoh kerja hash tabel:<br/>
-1. Inserton<br/>
-Memasukan data baru dalam hash tabel dengan memanggil fungsi hash untuk menentukan posisi slot yang tepat.
-2. Deletion<br/>
-Menghapus data dari hash tabel dengan menggunkan fungsi hash di mana akan menghapus kunci-nilai data tersebut.
-3. Searching<br/>
-Mencari data dalam hash tabel dengan mencari data menggunakan fungsi hash.
+    1. Inserton<br/>
+    Memasukan data baru dalam hash tabel dengan memanggil fungsi hash untuk menentukan posisi slot yang tepat.
+    2. Deletion<br/>
+    Menghapus data dari hash tabel dengan menggunkan fungsi hash di mana akan menghapus kunci-nilai data tersebut.
+    3. Searching<br/>
+    Mencari data dalam hash tabel dengan mencari data menggunakan fungsi hash.
 
 - Kekurangan hash tabel<br/>
 Hash tabel juga mempunyai keterbatasan yaitu "collision" atau benturan, dimana dua kunci berbeda bisa menghasilkan indekss yang sama dari fungsi hash. Ada dua metode untuk menanganinya seperti:<br/>
