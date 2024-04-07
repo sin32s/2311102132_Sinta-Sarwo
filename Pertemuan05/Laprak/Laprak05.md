@@ -23,17 +23,17 @@ Fungsi hash merupakan rumus matematika yang ketika dilakukan pada sebuah kunci m
     Mencari data dalam hash tabel dengan mencari data menggunakan fungsi hash.
 
 - Kekurangan hash tabel<br/>
-Hash tabel juga mempunyai keterbatasan yaitu "collision" atau benturan, dimana dua kunci berbeda bisa menghasilkan indekss yang sama dari fungsi hash. Ada dua metode untuk menanganinya seperti:<br/>
-1. Open hashing <br/>
-Metode open hashing atau metode chaining dapat mengatasi jumlah item data yang besar secara efektif dengan menyimpan semua item data dengan nilai indek yang sama ke dalam linked list. Setiap node pada linked list merepresentasikan satu item data. Tetapi saat linked list memiliki banyak node, proses penambahan atau pencarian item data menjadi lambat.
-2. Open Addressing <br/>
-Metode open adrressing atau metode closed hashing menghitung posisi baru menggunakan urutan probe dan catatan berikutnya disimpan pada posisi tersebut. Ada beberapa urutan probe yang popular:<br/>
-- Linear probing:<br/>
-Interval antara probe ditetapkan menjadi 1. Ini berarti bahwa posisi berikutnya yang tersedia dalam tabel akan dicoba.
-- Quadratic probing:<br/>
-Interval antara probe meningkat secara kuadratik. Ini berarti bahwa posisi berikutnya yang tersedia yang akan dicoba akan meningkat secara kuadratik.
-- Double hashing:<br/>
-Interval antara probe tetap untuk setiap record tetapi hash dihitung lagi dengan hashing ganda.
+    Hash tabel juga mempunyai keterbatasan yaitu "collision" atau benturan, dimana dua kunci berbeda bisa menghasilkan indekss yang sama dari fungsi hash. Ada dua metode untuk menanganinya seperti:<br/>
+    1. Open hashing <br/>
+    Metode open hashing atau metode chaining dapat mengatasi jumlah item data yang besar secara efektif dengan menyimpan semua item data dengan nilai indek yang sama ke dalam linked list. Setiap node pada linked list merepresentasikan satu item data. Tetapi saat linked list memiliki banyak node, proses penambahan atau pencarian item data menjadi lambat.
+    2. Open Addressing <br/>
+    Metode open adrressing atau metode closed hashing menghitung posisi baru menggunakan urutan probe dan catatan berikutnya disimpan pada posisi tersebut. Ada beberapa urutan probe yang popular:<br/>
+    - Linear probing:<br/>
+    Interval antara probe ditetapkan menjadi 1. Ini berarti bahwa posisi berikutnya yang tersedia dalam tabel akan dicoba.
+    - Quadratic probing:<br/>
+    Interval antara probe meningkat secara kuadratik. Ini berarti bahwa posisi berikutnya yang tersedia yang akan dicoba akan meningkat secara kuadratik.
+    - Double hashing:<br/>
+    Interval antara probe tetap untuk setiap record tetapi hash dihitung lagi dengan hashing ganda.
 
 ```C++
 #include <iostream>
