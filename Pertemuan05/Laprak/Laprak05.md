@@ -3,11 +3,6 @@
 
 ## Dasar Teori
 
-
-## Guided 
-
-### 1. Guided 1
-
 Hash tabel merupakan struktur data yang digunakan untuk menyimpan dan mengambil data secara efisien menggunkan kunci-nilai. Hash tabel biasanya terdiri dari dua komponen utama: array/vektor dan fungsi hash. Data akan dipetakan ke posisi array dengan fungsi hash yang akan menghasilkan nilai dari setiap kunci.<br/>
 ![Screenshot Dasar Teori 1](DasarTeori-1_Sinta.png)
 
@@ -34,6 +29,10 @@ Fungsi hash merupakan rumus matematika yang ketika dilakukan pada sebuah kunci m
     Interval antara probe meningkat secara kuadratik. Ini berarti bahwa posisi berikutnya yang tersedia yang akan dicoba akan meningkat secara kuadratik.
     - Double hashing:<br/>
     Interval antara probe tetap untuk setiap record tetapi hash dihitung lagi dengan hashing ganda.
+
+## Guided 
+
+### 1. Guided 1
 
 ```C++
 #include <iostream>
