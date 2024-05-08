@@ -5,7 +5,7 @@
 
 Stack merupakan struktur data yang menggunakan alur prinsip "Last in, First out" (LIFO), dimana elemen terakhir yang ditambahkan ke stack akan menjadi elemen pertama yang diambil dari stack. Seperti gambar dibawah ini:<br/>
 ![Screenshot Dasar Teori 1](DasarTeori-1_Sinta.png)
-Bayangkan stack seperti tumpukan piring di dapur: piring terakhir yang Anda letakkan di tumpukan adalah piring pertama yang Anda ambil.
+Bayangkan stack seperti tumpukan piring di dapur dimana piring terakhir yang diletakkan di tumpukan adalah piring pertama yang akan ambil.
 
 - Konsep-Konsep dasar tentang stack: <br/>
     1. Push<br/>
