@@ -3,18 +3,16 @@
 
 ## Dasar Teori
 
-Queue merupakan struktur data yang menggunakan prisip "First-in First-Out" dalam  penyimpanan data. Dimana data yang pertama masuk ke dalam queue akan menjadi data yang pertama dikeluarkan. Queue dapat dimplementasikan menggunakan array atau linked list. Di dalam queue terdapat pointer utama yaitu "front" and "rear". "Front" menunjuk ke data pertama dalam queue  sedanagkan "rear" menunjuk ke data terakhir. Kita dapat mengerti konsep queue dengan membayangkan sebuah antrian, orang pertama yang datang akan dilayani terlebih dahulu dan seterusnya.
+Queue merupakan struktur data yang menggunakan prisip "First-in First-Out" (FIFO) dalam  penyimpanan data. Dimana data yang pertama masuk ke dalam queue akan menjadi data yang pertama dikeluarkan. Queue dapat dimplementasikan menggunakan array atau linked list. Di dalam queue terdapat pointer utama yaitu "front" and "rear". "Front" menunjuk ke data pertama dalam queue  sedanagkan "rear" menunjuk ke data terakhir. Kita dapat mengerti konsep queue dengan membayangkan sebuah antrian, orang pertama yang datang akan dilayani terlebih dahulu dan seterusnya.
 
 Queue dan stack mempunyai kebedaan, queue memiliki aturan berbeda untuk menambah dan menghapus data. Pada stack, penambahan dan penghapusan data hanya dilakukan di satu ujung. Sedangkan pada queue, operasi tersebut dilakukan di dua ujung yang berbeda. Hal ini karena perubahan data selalu mengacu pada data terdepan ("head"). Oleh karena itu, hanya ada dua operasi dasar dalam queue: <br/>
 
 1. Enqueue: Menambahkan data baru ke bagian belakang antrian.
-2. Dequeue: Menghapus data terdepan dari antrian.
+2. Dequeue: Menghapus data terdepan dari antrian.<br/>
 
 ![Screenshot Dasar Teori 1](DasarTeori-1_Sinta.png)
 
-Saat Enqueue, data baru ditambahkan setelah data terakhir dalam antrian. Sedangkan saat Dequeue, "head" digeser untuk menunjuk ke data selanjutnya dalam antrian, layaknya antrian di taman hiburan yang terus bergerak.
-
-Singkatnya, queue adalah struktur data yang mensimulasikan antrian dalam kehidupan nyata, di mana data diproses berdasarkan urutan kedatangannya.
+Saat Enqueue, data baru ditambahkan setelah data terakhir dalam antrian. Sedangkan saat Dequeue, "head" digeser untuk menunjuk ke data selanjutnya dalam antrian, layaknya antrian di taman hiburan yang terus bergerak. Singkatnya, queue adalah struktur data yang mensimulasikan antrian dalam kehidupan nyata, di mana data diproses berdasarkan urutan kedatangannya.
 
 #### Operasi Dasar Queue:<br/>
  - Enqueue() :menambahkan data kedalam queue.
