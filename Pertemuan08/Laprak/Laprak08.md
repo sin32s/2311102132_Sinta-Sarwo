@@ -8,7 +8,7 @@ Searching merupakan algoritma untuk mencari elemen tertentu dalam sebuah array a
 1. Linear Search / Sequential Search<br/>
 Sequential search merupakan algoritma searching yang paling sederhana dan mudah dipahami. Cara kerja sequential search ini, setiap elemen pada array atau struktur data lainnya akan diperiksa secara satu per satu hingga elemen yang dicari ditemukan atau seluruh elemen telah diperiksa.<br/>
 ![Screenshot Dasar Teori 1](DasarTeori-1_Sinta.png) <br/>
-Seperti di gambar di atas terdapat proses yang dilakukan adalah:<br/>
+Seperti di gambar di atas terdapat proses yang dilakukan adalah:
 - Start: Elemen pertama akan diperiksa dari kumpulan elemen.
 - Compare: Membandingkan elemen tersebut dengan yang dicari.
 - Found: Jika elemen saat ini sama dengan elemen yang dicari, kembalikan true atau indeks ke elemen saat ini.
@@ -20,7 +20,7 @@ Binary search merupakan algoritma searching yang lebih efesien dibandingkan deng
 ![Screenshot Dasar Teori 1](DasarTeori-2_Sinta.png) <br/>
 Seperti di gambar di atas terdapat proses yang dilakukan dan kondisi untuk menggunakan binary search:<br/>
 - Kondisi: Data elemen harus terurut.
-- Cara kerja:<br/>
+- Cara kerja:
 1. Menentukan nilai awal, tengah, dan akhir: Nilai awal biasanya adalah indeks pertama, nilai akhir adalah indeks terkahir, dan nilai tengah adalah rata-rata dari nilai awal dan akhir.
 2. Compare: Nilai tengah akan dibandingkan dengan nilai yang dicari,
 -  Jika nilai tengah sama dengan nilai yang dicari, maka pencarian selesai elemen telah ditemukan.
