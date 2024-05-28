@@ -3,7 +3,7 @@
 
 ## Dasar Teori
 
-# Graph 
+### Graph 
 Graph merupakan kumpulan node yang terhubung oleh sisi. Ini digunakan untuk merepresentasikan hubungan antara berbagai entitas. Algoritma Graf adalah metode yang digunakan untuk memanipulasi dan menganalisis graf, menyelesaikan berbagai masalah seperti menemukan jalur terpendek atau mendeteksi siklus. <br/>
 ![Screenshot Dasar Teori 1](DasarTeori-1_Sinta.png)
 
@@ -12,17 +12,18 @@ Graph terdiri dari beberapa komponen yaitu:
 2. Daftar Adjacency: Representasi daftar di mana setiap simpul memiliki daftar simpul-simpul yang terhubung langsung dengannya.
 
 Jenis-jenis Graph:
+
 ![Screenshot Dasar Teori 1](DasarTeori-2_Sinta.png)
 1. Graf Sederhana: Graf di mana tidak ada sisi yang menghubungkan simpul dengan dirinya sendiri (loop) dan tidak ada lebih dari satu sisi yang menghubungkan dua simpul yang sama (multiple edges).
 2. Graf Lintas: Graf yang setiap simpulnya terhubung dengan semua simpul lainnya.
 3. Graf Berkelompok: Graf yang simpul-simpulnya terbagi menjadi beberapa kelompok yang terhubung secara internal.
 
-# Tree
+### Tree
 Tree ataupohon merupakan struktur data hierarkis yang terdiri dari simpul-simpul yang terhubung secara berjenjang. Dalam pohon, ada satu simpul yang menjadi simpul paling atas yang disebut sebagai "akar". Setiap simpul dalam pohon dapat memiliki satu atau lebih simpul anak, kecuali simpul daun yang tidak memiliki anak. Simpul-simpul dalam pohon terhubung oleh sisi-sisi yang disebut "garis-garis". Setiap simpul kecuali akar memiliki satu simpul "induk" yang terhubung langsung dengannya, dan setiap simpul kecuali simpul daun memiliki satu atau lebih simpul "anak" yang terhubung langsung kepadanya. Pohon sering digunakan untuk merepresentasikan hierarki data, seperti struktur organisasi perusahaan, struktur direktori pada sistem komputer, atau hubungan antara kategori dan subkategori dalam pengindeksan data.
 ![Screenshot Dasar Teori 1](DasarTeori-3_Sinta.png)
 
 Konsep dasar pohon:
-![Screenshot Dasar Teori 1](DasarTeori-4_Sinta.jpeg)
+![Screenshot Dasar Teori 1](DasarTeori-4_Sinta.jpg)
 
 Pohon dapat memiliki berbagai jenis, termasuk pohon biner (yang setiap simpulnya memiliki paling banyak dua anak), pohon biner pencarian (BST) yang memiliki aturan tertentu untuk pengurutan data, dan pohon n-ari yang memungkinkan setiap simpul memiliki lebih dari dua anak. Pohon digunakan dalam berbagai algoritma dan aplikasi, seperti penyimpanan data, struktur pencarian, dan optimisasi.
 
