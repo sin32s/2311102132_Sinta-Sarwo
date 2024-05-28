@@ -506,16 +506,16 @@ struct Graph {
 
 //Mencetak Matrix
 void printMatrix_2132(const Graph& graph) {
-    cout << setw(10) << " ";
+    cout << setw(15) << " ";
     for (int i = 0; i < graph.numCities_2132; i++) {
-        cout << setw(10) << graph.CityNames_2132[i];
+        cout << setw(15) << graph.CityNames_2132[i];
     }
     cout << endl;
 
     for (int i = 0; i < graph.numCities_2132; i++) {
-        cout << setw(10) << graph.CityNames_2132[i];
+        cout << setw(15) << graph.CityNames_2132[i];
         for (int j = 0; j < graph.numCities_2132; j++) {
-            cout << setw(10) << graph.BusurMatrix_2132[i][j];
+            cout << setw(15) << graph.BusurMatrix_2132[i][j];
         }
         cout << endl;
     }
